@@ -17,6 +17,7 @@ set nocompatible               " be iMproved
  Bundle 'tpope/vim-fugitive'
  Bundle 'jpalardy/vim-slime'
  Bundle 'vim-scripts/bufkill.vim'
+ Bundle 'elzr/vim-json'
  filetype plugin indent on     " required!
  "
  " Brief help
@@ -28,7 +29,7 @@ set nocompatible               " be iMproved
  " see :h vundle for more details or wiki for FAQ
  " NOTE: comments after Bundle command are not allowed..
  " Revert Color to default when leaving Insert Mode
-
+command W :w
 noremap <C-j> 14j14<C-e>
 noremap <C-k> 14k14<C-y>
 noremap <C-e> :BF<CR>:<ESC><ESC>
